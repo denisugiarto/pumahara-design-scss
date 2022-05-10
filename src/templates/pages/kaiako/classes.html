@@ -1,0 +1,91 @@
+{% extends "layout.html" %} {% set pageTitle = 'My Classes' %} {% block content
+%}
+<div class="container-box">
+  {% include '../components/sidebar/sidebarKaiako.html' %}
+  <!-- Main Section-->
+  <main class="bd-main">
+    <!-- Classes Section -->
+    <div class="header d-flex align-items-center mb-4">
+      <i class="demo-icon icon-classes me-3"></i>
+      <h4 class="page-title">My Classes</h4>
+    </div>
+    <div class="mb-4 d-flex">
+      <div class="col-12 col-md-auto">
+        <select class="form-select" aria-label="Year">
+          <option value="2022" selected>2022</option>
+          <option value="2023">2023</option>
+          <option value="2024">2024</option>
+        </select>
+      </div>
+    </div>
+    <div class="card-list">
+      <div class="row">
+        <div class="col-12 col-md-6 col-xl-4">
+          <a href="/pumahara-design/kaiako/classes-detail.html" role="button">
+            <div class="card">
+              <div class="card-body d-flex align-items-center">
+                <h6 class="me-auto mb-0">Puriri - Y7</h6>
+                <i class="fa-solid fa-chevron-right"></i>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </main>
+  <!-- Delete Modal -->
+  <div
+    class="modal fade"
+    id="deleteModal"
+    tabindex="-1"
+    aria-labelledby="deleteModalLabel"
+    aria-hidden="true"
+  >
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h6 class="modal-title" id="deleteModalLabel">Delete Confirmation</h6>
+          <button
+            type="button"
+            class="btn-close"
+            data-bs-dismiss="modal"
+            aria-label="Close"
+          ></button>
+        </div>
+        <div class="modal-body text-start">
+          <p class="mb-3">
+            Are you sure you want to delete -
+            <span class="fw-bold"> Kahikatoa</span>?
+          </p>
+          <div class="row gx-3">
+            <div class="col-6 col-md-auto">
+              <button
+                type="button"
+                class="btn btn-primary-style w-100"
+                data-bs-dismiss="modal"
+              >
+                Yes, Delete
+              </button>
+            </div>
+            <div class="col-6 col-md-auto">
+              <button
+                type="button"
+                class="btn btn-secondary-style w-100"
+                data-bs-dismiss="modal"
+              >
+                Cancel
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+  $(document).ready(function () {
+    $(".icon-classes").parent().parent().addClass("active");
+  });
+</script>
+{% endblock %}

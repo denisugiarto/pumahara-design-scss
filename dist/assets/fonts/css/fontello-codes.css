@@ -1,0 +1,16 @@
+
+.icon-home:before { content: '\e800'; } /* '' */
+.icon-classes:before { content: '\e801'; } /* '' */
+.icon-bell:before { content: '\e802'; } /* '' */
+.icon-journal:before { content: '\e803'; } /* '' */
+.icon-kaiako:before { content: '\e804'; } /* '' */
+.icon-logout:before { content: '\e805'; } /* '' */
+.icon-plan:before { content: '\e806'; } /* '' */
+.icon-maramataka:before { content: '\e807'; } /* '' */
+.icon-pumanawa:before { content: '\e808'; } /* '' */
+.icon-ropu:before { content: '\e809'; } /* '' */
+.icon-whanau:before { content: '\e80a'; } /* '' */
+.icon-setting:before { content: '\e80b'; } /* '' */
+.icon-tauira:before { content: '\e80c'; } /* '' */
+.icon-duration:before { content: '\e80d'; } /* '' */
+.icon-evaluation:before { content: '\e80e'; } /* '' */

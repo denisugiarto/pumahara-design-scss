@@ -1,0 +1,1580 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="msapplication-TileColor" content="#ffffff" />
+  <meta name="theme-color" content="#ffffff" />
+  <title>My Classes Detail</title>
+  <link
+    rel="stylesheet"
+    type="text/css"
+    href="/node_modules/bootstrap/dist/css/bootstrap.min.css"
+  />
+
+  <link rel="stylesheet" type="text/css" href="../assets/css/style.css" />
+  <link
+    rel="stylesheet"
+    type="text/css"
+    href="../assets/fonts/css/fontello.css"
+  />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap"
+    rel="stylesheet"
+  />
+  <script
+    src="https://kit.fontawesome.com/afe7e62084.js"
+    crossorigin="anonymous"
+  ></script>
+  <script src="/node_modules/jquery/dist/jquery.slim.min.js"></script>
+
+  <script src="/node_modules/@popperjs/core/dist/umd/popper.min.js"></script>
+  <script src="/node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+</head>
+
+  <body>
+    
+    <div class="container-box">
+      <!-- Navbar Section-->
+<div class="sidebar">
+  <div class="navbar-small">
+    <button
+      class="btn-menu"
+      type="button"
+      data-bs-toggle="offcanvas"
+      data-bs-target="#offcanvasSidebar"
+    >
+      <svg
+        width="20"
+        height="21"
+        viewBox="0 0 20 21"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <line y1="0.5" x2="20" y2="0.5" stroke="#3E332B" />
+        <line y1="10.5" x2="13.3333" y2="10.5" stroke="#3E332B" />
+        <line y1="20.5" x2="20" y2="20.5" stroke="#3E332B" />
+      </svg>
+      <p>MENU</p>
+    </button>
+    <div class="brand">
+      <picture>
+        <source media="(min-width:992px)" srcset="../assets/images/logo3.svg" />
+        <img src="../assets/images/logo4.svg" alt="brand images" />
+      </picture>
+    </div>
+    <a class="notification" href="#">
+      <i class="demo-icon icon-bell"></i>
+      <span>99+</span>
+    </a>
+    <div class="img-profile d-none d-lg-flex">
+      <img src="../assets/images/profile.webp" alt="image profile" />
+    </div>
+  </div>
+  <div
+    class="offcanvas offcanvas-start bd-sidebar"
+    id="offcanvasSidebar"
+    tabindex="-1"
+  >
+    <div class="bd-links offcanvas-body">
+      <div class="img-profile d-lg-none">
+        <img src="../assets/images/profile.webp" alt="image profile" />
+      </div>
+      <p class="profile-name">Olivia Emily</p>
+      <nav class="nav flex-column nav-style">
+        <a href="#" class="nav-link border-bottom">
+          <div class="nav-icon">
+            <i class="demo-icon icon-home"></i>
+          </div>
+          <div class="nav-text">Home</div>
+          <div class="nav-arrow">
+            <i class="fa-solid fa-chevron-right"></i>
+          </div>
+        </a>
+        <a
+          href="/pumahara-design/kaiako/classes.html"
+          class="nav-link border-bottom"
+        >
+          <div class="nav-icon">
+            <i class="demo-icon icon-classes"></i>
+          </div>
+          <div class="nav-text">My Classes</div>
+          <div class="nav-arrow">
+            <i class="fa-solid fa-chevron-right"></i>
+          </div>
+        </a>
+        <a href="/pumahara-design/roopu.html" class="nav-link border-bottom">
+          <div class="nav-icon">
+            <i class="demo-icon icon-ropu"></i>
+          </div>
+          <div class="nav-text">My Roopu</div>
+          <div class="nav-arrow">
+            <i class="fa-solid fa-chevron-right"></i>
+          </div>
+        </a>
+        <a
+          href="/pumahara-design/ngapumanawa.html"
+          class="nav-link border-bottom"
+        >
+          <div class="nav-icon">
+            <i class="demo-icon icon-pumanawa"></i>
+          </div>
+          <div class="nav-text">Ngā Pūmanawa</div>
+          <div class="nav-arrow">
+            <i class="fa-solid fa-chevron-right"></i>
+          </div>
+        </a>
+        <a href="#" class="nav-link border-bottom">
+          <div class="nav-icon">
+            <i class="demo-icon icon-maramataka"></i>
+          </div>
+          <div class="nav-text">Maramataka</div>
+          <div class="nav-arrow">
+            <i class="fa-solid fa-chevron-right"></i>
+          </div>
+        </a>
+        <a href="#" class="nav-link border-bottom">
+          <div class="nav-icon">
+            <i class="demo-icon icon-journal"></i>
+          </div>
+          <div class="nav-text">Journal</div>
+          <div class="nav-arrow">
+            <i class="fa-solid fa-chevron-right"></i>
+          </div>
+        </a>
+        <a href="#" class="nav-link border-bottom">
+          <div class="nav-icon">
+            <i class="demo-icon icon-setting"></i>
+          </div>
+          <div class="nav-text">Account Setting</div>
+          <div class="nav-arrow">
+            <i class="fa-solid fa-chevron-right"></i>
+          </div>
+        </a>
+        <a href="#" class="nav-link text-danger">
+          <div class="nav-icon">
+            <i class="demo-icon icon-logout"></i>
+          </div>
+          <div class="nav-text">Logout</div>
+        </a>
+      </nav>
+    </div>
+  </div>
+</div>
+
+      <!-- Main Section-->
+      <main class="bd-main">
+        <div class="nav-back">
+          <div class="row gy-3">
+            <div class="col-12 col-md d-flex align-items-center">
+              <a class="icon-back" href="/pumahara-design/kaiako/classes.html">
+                <svg
+                  width="16"
+                  height="21"
+                  viewBox="0 0 16 21"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M9.15371 15.3453C9.50564 14.9941 9.47105 14.4667 9.15503 14.1148L4.90546 10.0673L15.0305 10.0781C15.4875 10.0786 15.8746 9.72748 15.8751 9.23529L15.8763 8.11029C15.8768 7.65326 15.4905 7.26612 15.0335 7.26563L4.90848 7.25477L9.16668 3.25152C9.48346 2.9003 9.51919 2.373 9.168 2.02106L8.39539 1.24679C8.07933 0.930044 7.51683 0.929441 7.20008 1.24551L0.372418 8.09365C0.0205166 8.40968 0.0199508 8.93703 0.371174 9.25381L7.18413 16.1166C7.50019 16.4333 8.02754 16.4339 8.37944 16.1179L9.15371 15.3453Z"
+                    fill="#3E332B"
+                  />
+                </svg>
+              </a>
+              <h5>Puriri Class - Y7</h5>
+            </div>
+            <div class="col-12 col-md-auto pr-md-3">
+              <select class="form-select" aria-label="Year">
+                <option value="2022" selected>2022</option>
+                <option value="2023">2023</option>
+                <option value="2024">2024</option>
+              </select>
+            </div>
+          </div>
+          <hr class="d-none d-md-block my-4" />
+        </div>
+        <!-- Tab Navigation -->
+        <div class="card text-center mb-3 mb-md-4">
+          <div class="card-header m-0">
+            <nav class="nav nav-tab" id="myTab" role="tablist">
+              <a
+                class="nav-link active col-6 col-md-auto"
+                id="term-tab"
+                data-bs-toggle="tab"
+                data-bs-target="#term"
+                type="button"
+                role="tab"
+                aria-controls="term"
+                aria-selected="true"
+              >
+                Term Plan
+              </a>
+              <a
+                class="nav-link col-6 col-md-auto"
+                id="tauira-tab"
+                data-bs-toggle="tab"
+                data-bs-target="#tauira"
+                type="button"
+                role="tab"
+                aria-controls="tauira"
+                aria-selected="false"
+              >
+                Tāuira
+              </a>
+            </nav>
+          </div>
+        </div>
+
+        <div
+        class="alert alert-success-style alert-dismissible fade show mb-4"
+        role="alert"
+        >
+        Term plan added successfully
+          <button
+          type="button"
+          class="btn-close"
+          data-bs-dismiss="alert"
+          aria-label="Close"
+          ></button>
+        </div>
+
+        <!-- Tab Term Plan -->
+        <div
+          class="tab-pane fade show active"
+          id="term"
+          role="tabpanel"
+          aria-labelledby="term-tab"
+        >
+          <!-- Utilities -->
+          <div class="d-flex justify-content-end mb-3 mb-md-4">
+            <!-- Button Add Term Plan -->
+            <div class="col-auto">
+              <button
+                class="btn btn-primary-style d-none d-md-block"
+                type="button"
+                data-bs-target="#addTerm"
+                data-bs-toggle="modal"
+              >
+                <i class="fa fa-circle-plus me-2"></i>
+                Add Term Plan
+              </button>
+
+              <button
+                class="btn-circle btn-primary-style d-block d-md-none"
+                data-bs-target="#addTerm"
+                data-bs-toggle="modal"
+              >
+                <i class="fas fa-plus"></i>
+              </button>
+            </div>
+          </div>
+          <!-- Content -->
+            <div class="row g-3 g-md-4">
+              <div class="col-12 col-md-6 col-xl-4">
+                <div class="card">
+                  <div class="card-body d-flex align-items-center">
+                    <div>
+                      <h6 class="fs-14">Term 1</h6>
+                      <div class="d-flex mb-2 align-items-center fs-12">
+                        <i class="fa fa-calendar-day p-1 me-2"></i>
+                        01/01/2022 - 28/02/2022
+                      </div>
+                      <div class="d-flex align-items-center fs-12">
+                        <i class="fa fa-award p-1 me-2"></i>
+                        Quality 1 - Tamatekapua
+                      </div>
+                    </div>
+                    <div class="ms-auto dropup">
+                      <a
+                        role="button"
+                        class="menu-option"
+                        id="dropdownMenuButton1"
+                        data-bs-toggle="dropdown"
+                        aria-expanded="false"
+                        data-bs-offset="0,-35"
+                      >
+                        <i class="fa-solid fa-ellipsis-v"></i>
+                      </a>
+                      <ul
+                        class="dropdown-menu dropdown-menu-end"
+                        aria-labelledby="dropdownMenuButton1"
+                      >
+                        <li>
+                          <a
+                            class="dropdown-item"
+                            data-bs-toggle="modal"
+                            data-bs-target="#detailTerm"
+                            type="button"
+                          >
+                            <i class="fa-solid fa-info-circle"></i>
+                            Detail
+                          </a>
+                        </li>
+                        <li>
+                          <a
+                            class="dropdown-item text-danger"
+                            data-bs-toggle="modal"
+                            data-bs-target="#delTermModal"
+                            type="button"
+                          >
+                            <i class="fa-solid fa-trash-alt"></i>
+                            Delete
+                          </a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-md-6 col-xl-4">
+                <div class="card">
+                  <div class="card-body d-flex align-items-center">
+                    <div>
+                      <h6 class="fs-14">Term 2</h6>
+                      <div class="d-flex mb-2 align-items-center fs-12">
+                        <i class="fa fa-calendar-day p-1 me-2"></i>
+                        01/03/2022 - 30/04/2022
+                      </div>
+                      <div class="d-flex align-items-center fs-12">
+                        <i class="fa fa-award p-1 me-2"></i>
+                        Quality 2 - Frederick Bennett
+                      </div>
+                    </div>
+                    <div class="ms-auto dropup">
+                      <a
+                        href="#"
+                        class="menu-option"
+                        id="dropdownMenuButton1"
+                        data-bs-toggle="dropdown"
+                        aria-expanded="false"
+                        data-bs-offset="0,-35"
+                      >
+                        <i class="fa-solid fa-ellipsis-v"></i>
+                      </a>
+                      <ul
+                        class="dropdown-menu dropdown-menu-end"
+                        aria-labelledby="dropdownMenuButton1"
+                      >
+                        <li>
+                          <a
+                            class="dropdown-item"
+                            data-bs-toggle="modal"
+                            data-bs-target="#detailTerm"
+                            type="button"
+                          >
+                            <i class="fa-solid fa-info-circle"></i>
+                            Detail
+                          </a>
+                        </li>
+                        <li>
+                          <a
+                            class="dropdown-item text-danger"
+                            data-bs-toggle="modal"
+                            data-bs-target="#delTermModal"
+                            href="#"
+                          >
+                            <i class="fa-solid fa-trash-alt"></i>
+                            Delete
+                          </a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-md-6 col-xl-4">
+                <div class="card">
+                  <div class="card-body d-flex align-items-center">
+                    <div>
+                      <h6 class="fs-14">Term 3</h6>
+                      <div class="d-flex mb-2 align-items-center fs-12">
+                        <i class="fa fa-calendar-day p-1 me-2"></i>
+                        01/05/2022 - 30/06/2022
+                      </div>
+                      <div class="d-flex align-items-center fs-12">
+                        <i class="fa fa-award p-1 me-2"></i>
+                        Quality 3 - Te Ao Kapurangi
+                      </div>
+                    </div>
+                    <div class="ms-auto dropup">
+                      <a
+                        href="#"
+                        class="menu-option"
+                        id="dropdownMenuButton1"
+                        data-bs-toggle="dropdown"
+                        aria-expanded="false"
+                        data-bs-offset="0,-35"
+                      >
+                        <i class="fa-solid fa-ellipsis-v"></i>
+                      </a>
+                      <ul
+                        class="dropdown-menu dropdown-menu-end"
+                        aria-labelledby="dropdownMenuButton1"
+                      >
+                        <li>
+                          <a
+                            class="dropdown-item"
+                            data-bs-toggle="modal"
+                            data-bs-target="#detailTerm"
+                            type="button"
+                          >
+                            <i class="fa-solid fa-info-circle"></i>
+                            Detail
+                          </a>
+                        </li>
+                        <li>
+                          <a
+                            class="dropdown-item text-danger"
+                            data-bs-toggle="modal"
+                            data-bs-target="#delTermModal"
+                            href="#"
+                          >
+                            <i class="fa-solid fa-trash-alt"></i>
+                            Delete
+                          </a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-md-6 col-xl-4">
+                <div class="card">
+                  <div class="card-body d-flex align-items-center">
+                    <div>
+                      <h6 class="fs-14">Term 4</h6>
+                      <div class="d-flex mb-2 align-items-center fs-12">
+                        <i class="fa fa-calendar-day p-1 me-2"></i>
+                        01/07/2022 - 31/08/2022
+                      </div>
+                      <div class="d-flex align-items-center fs-12">
+                        <i class="fa fa-award p-1 me-2"></i>
+                        Quality 4 - Ihenga
+                      </div>
+                    </div>
+                    <div class="ms-auto dropup">
+                      <a
+                        href="#"
+                        class="menu-option"
+                        id="dropdownMenuButton1"
+                        data-bs-toggle="dropdown"
+                        aria-expanded="false"
+                        data-bs-offset="0,-35"
+                      >
+                        <i class="fa-solid fa-ellipsis-v"></i>
+                      </a>
+                      <ul
+                        class="dropdown-menu dropdown-menu-end"
+                        aria-labelledby="dropdownMenuButton1"
+                      >
+                        <li>
+                          <a
+                            class="dropdown-item"
+                            data-bs-toggle="modal"
+                            data-bs-target="#detailTerm"
+                            type="button"
+                          >
+                            <i class="fa-solid fa-info-circle"></i>
+                            Detail
+                          </a>
+                        </li>
+                        <li>
+                          <a
+                            class="dropdown-item text-danger"
+                            data-bs-toggle="modal"
+                            data-bs-target="#delTermModal"
+                            href="#"
+                          >
+                            <i class="fa-solid fa-trash-alt"></i>
+                            Delete
+                          </a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12">
+                <div class="text-center">
+                  <img
+                    src="../assets/images/ic-no-data.svg"
+                    alt="no data"
+                    class="mb-4"
+                  />
+                  <h6>Sorry, no data available yet in 2022</h6>
+                  <p>please add term data first</p>
+                </div>
+              </div>
+            </div>
+        </div>
+
+        <!-- Tab Tauira -->
+        <div
+          class="tab-pane fade"
+          id="tauira"
+          role="tabpanel"
+          aria-labelledby="tauira-tab"
+        >
+          <!-- Utilities -->
+          <div class="mb-3 mb-md-4">
+            <div class="row gx-3 align-items-center">
+              <!-- Checkbox -->
+              <div class="col-auto">
+                <div class="bg-white rounded px-3 py-2 border">
+                  <input
+                    type="checkbox"
+                    class="form-check-input small"
+                    id="tauiraSelectAll"
+                  />
+                </div>
+              </div>
+              <!-- Form Search -->
+              <form class="form-search col">
+                <i class="fa fa-magnifying-glass"></i>
+                <input
+                  class="form-control me-2"
+                  type="search"
+                  placeholder="Search by name"
+                  aria-label="Search"
+                />
+              </form>
+              <!-- Dropdown Menu -->
+              <div class="col-auto dropdown">
+                <button
+                  class="btn btn-secondary-style dropdown-toggle no-icon"
+                  type="button"
+                  id="dropdownAction"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                  data-bs-offset="0,5"
+                >
+                  <div class="d-block d-md-none">
+                    <i class="fa fa-ellipsis-v p-1"></i>
+                  </div>
+                  <div class="d-none d-md-block">
+                    <span class="ms-4">Action</span>
+                    <i class="dropdown-icon fa-solid fa-chevron-down ms-4"></i>
+                  </div>
+                </button>
+                <ul
+                  class="dropdown-menu dropdown-menu-end"
+                  aria-labelledby="dropdownAction"
+                >
+                  <li>
+                    <button
+                      class="dropdown-item"
+                      data-bs-toggle="modal"
+                      data-bs-target="#gradeUpTauira"
+                    >
+                      <i class="fa-solid fa-arrow-circle-right"></i>
+                      Grade Up
+                    </button>
+                  </li>
+                  <li>
+                    <button class="dropdown-item">
+                      <i class="fa-solid fa-download"></i>
+                      Download Data
+                    </button>
+                  </li>
+                  <li>
+                    <button class="dropdown-item text-danger">
+                      <i class="fa-solid fa-trash-alt"></i>
+                      Delete All
+                    </button>
+                  </li>
+                </ul>
+              </div>
+              <!-- Button Assign Tauira -->
+              <div class="col-auto d-none d-md-block">
+                <button
+                  class="btn btn-primary-style"
+                  type="button"
+                  data-bs-toggle="modal"
+                  data-bs-target="#assignTauira"
+                >
+                  <i class="fa fa-circle-plus me-2"></i>
+                  Assign Tauria
+                </button>
+              </div>
+                <button
+                  class="btn-circle btn-primary-style d-block d-md-none"
+                  data-bs-toggle="modal"
+                  data-bs-target="#assignTauira"
+                >
+                  <i class="fas fa-plus"></i>
+                </button>
+            </div>
+          </div>
+          <!-- Content -->
+          <div class="row g-3 g-md-4 mb-3 mb-md-4">
+            <div class="col-12 col-md-6 col-xl-4">
+              <div class="card card-body">
+                <label for="talist1" class="form-label mb-0 c-pointer row">
+                  <div class="col">
+                    <input
+                      type="checkbox"
+                      class="form-check-input small me-2"
+                      name="tauira-list"
+                      id="talist1"
+                    />
+                    Jane Cooper
+                  </div>
+                  <div class="col-auto ms-auto">
+                    <a
+                      class="icon-style rounded bg-red text-center"
+                      data-bs-target="#delTauiraModal"
+                      data-bs-toggle="modal"
+                      type="button"
+                    >
+                      <i class="fa fa-trash-alt text-danger"></i>
+                    </a>
+                  </div>
+                </label>
+              </div>
+            </div>
+            <div class="col-12 col-md-6 col-xl-4">
+              <div class="card card-body">
+                <label for="talist2" class="form-label mb-0 c-pointer row">
+                  <div class="col">
+                    <input
+                      type="checkbox"
+                      class="form-check-input small me-2"
+                      name="tauira-list"
+                      id="talist2"
+                    />
+                    Annette Black
+                  </div>
+                  <div class="col-auto ms-auto">
+                    <a
+                      class="icon-style rounded bg-red text-center"
+                      data-bs-target="#delTauiraModal"
+                      data-bs-toggle="modal"
+                      type="button"
+                    >
+                      <i class="fa fa-trash-alt text-danger"></i>
+                    </a>
+                  </div>
+                </label>
+              </div>
+            </div>
+            <div class="col-12 col-md-6 col-xl-4">
+              <div class="card card-body">
+                <label for="talist3" class="form-label mb-0 c-pointer row">
+                  <div class="col">
+                    <input
+                      type="checkbox"
+                      class="form-check-input small me-2"
+                      name="tauira-list"
+                      id="talist3"
+                    />
+                    Arlene McCoy
+                  </div>
+                  <div class="col-auto ms-auto">
+                    <a
+                      class="icon-style rounded bg-red text-center"
+                      data-bs-target="#delTauiraModal"
+                      data-bs-toggle="modal"
+                      type="button"
+                    >
+                      <i class="fa fa-trash-alt text-danger"></i>
+                    </a>
+                  </div>
+                </label>
+              </div>
+            </div>
+            <div class="col-12 col-md-6 col-xl-4">
+              <div class="card card-body">
+                <label for="talist4" class="form-label mb-0 c-pointer row">
+                  <div class="col">
+                    <input
+                      type="checkbox"
+                      class="form-check-input small me-2"
+                      name="tauira-list"
+                      id="talist4"
+                    />
+                    Bessie Cooper
+                  </div>
+                  <div class="col-auto ms-auto">
+                    <a
+                      class="icon-style rounded bg-red text-center"
+                      data-bs-target="#delTauiraModal"
+                      data-bs-toggle="modal"
+                      type="button"
+                    >
+                      <i class="fa fa-trash-alt text-danger"></i>
+                    </a>
+                  </div>
+                </label>
+              </div>
+            </div>
+            <div class="col-12 col-md-6 col-xl-4">
+              <div class="card card-body">
+                <label for="talist5" class="form-label mb-0 c-pointer row">
+                  <div class="col">
+                    <input
+                      type="checkbox"
+                      class="form-check-input small me-2"
+                      name="tauira-list"
+                      id="talist5"
+                    />
+                    Jerome Bell
+                  </div>
+                  <div class="col-auto ms-auto">
+                    <a
+                      class="icon-style rounded bg-red text-center"
+                      data-bs-target="#delTauiraModal"
+                      data-bs-toggle="modal"
+                      type="button"
+                    >
+                      <i class="fa fa-trash-alt text-danger"></i>
+                    </a>
+                  </div>
+                </label>
+              </div>
+            </div>
+            <div class="col-12 col-md-6 col-xl-4">
+              <div class="card card-body">
+                <label for="talist6" class="form-label mb-0 c-pointer row">
+                  <div class="col">
+                    <input
+                      type="checkbox"
+                      class="form-check-input small me-2"
+                      name="tauira-list"
+                      id="talist6"
+                    />
+                    Dianne Russell
+                  </div>
+                  <div class="col-auto ms-auto">
+                    <a
+                      class="icon-style rounded bg-red text-center"
+                      data-bs-target="#delTauiraModal"
+                      data-bs-toggle="modal"
+                      type="button"
+                    >
+                      <i class="fa fa-trash-alt text-danger"></i>
+                    </a>
+                  </div>
+                </label>
+              </div>
+            </div>
+            <div class="col-12 col-md-6 col-xl-4">
+              <div class="card card-body">
+                <label for="talist7" class="form-label mb-0 c-pointer row">
+                  <div class="col">
+                    <input
+                      type="checkbox"
+                      class="form-check-input small me-2"
+                      name="tauira-list"
+                      id="talist7"
+                    />
+                    Ralph Edwards
+                  </div>
+                  <div class="col-auto ms-auto">
+                    <a
+                      class="icon-style rounded bg-red text-center"
+                      data-bs-target="#delTauiraModal"
+                      data-bs-toggle="modal"
+                      type="button"
+                    >
+                      <i class="fa fa-trash-alt text-danger"></i>
+                    </a>
+                  </div>
+                </label>
+              </div>
+            </div>
+            <div class="col-12 col-md-6 col-xl-4">
+              <div class="card card-body">
+                <label for="talist8" class="form-label mb-0 c-pointer row">
+                  <div class="col">
+                    <input
+                      type="checkbox"
+                      class="form-check-input small me-2"
+                      name="tauira-list"
+                      id="talist8"
+                    />
+                    Courtney Henry
+                  </div>
+                  <div class="col-auto ms-auto">
+                    <a
+                      class="icon-style rounded bg-red text-center"
+                      data-bs-target="#delTauiraModal"
+                      data-bs-toggle="modal"
+                      type="button"
+                    >
+                      <i class="fa fa-trash-alt text-danger"></i>
+                    </a>
+                  </div>
+                </label>
+              </div>
+            </div>
+            <div class="col-12 col-md-6 col-xl-4">
+              <div class="card card-body">
+                <label for="talist9" class="form-label mb-0 c-pointer row">
+                  <div class="col">
+                    <input
+                      type="checkbox"
+                      class="form-check-input small me-2"
+                      name="tauira-list"
+                      id="talist9"
+                    />
+                    Ralph Edwards
+                  </div>
+                  <div class="col-auto ms-auto">
+                    <a
+                      class="icon-style rounded bg-red text-center"
+                      data-bs-target="#delTauiraModal"
+                      data-bs-toggle="modal"
+                      type="button"
+                    >
+                      <i class="fa fa-trash-alt text-danger"></i>
+                    </a>
+                  </div>
+                </label>
+              </div>
+            </div>
+            <div class="col-12 col-md-6 col-xl-4">
+              <div class="card card-body">
+                <label for="talist10" class="form-label mb-0 c-pointer row">
+                  <div class="col">
+                    <input
+                      type="checkbox"
+                      class="form-check-input small me-2"
+                      name="tauira-list"
+                      id="talist10"
+                    />
+                    Ronald Richards
+                  </div>
+                  <div class="col-auto ms-auto">
+                    <a
+                      class="icon-style rounded bg-red text-center"
+                      data-bs-target="#delTauiraModal"
+                      data-bs-toggle="modal"
+                      type="button"
+                    >
+                      <i class="fa fa-trash-alt text-danger"></i>
+                    </a>
+                  </div>
+                </label>
+              </div>
+            </div>
+            <div class="col-12 col-md-6 col-xl-4">
+              <div class="card card-body">
+                <label for="talist11" class="form-label mb-0 c-pointer row">
+                  <div class="col">
+                    <input
+                      type="checkbox"
+                      class="form-check-input small me-2"
+                      name="tauira-list"
+                      id="talist11"
+                    />
+                    Darrell Steward
+                  </div>
+                  <div class="col-auto ms-auto">
+                    <a
+                      class="icon-style rounded bg-red text-center"
+                      data-bs-target="#delTauiraModal"
+                      data-bs-toggle="modal"
+                      type="button"
+                    >
+                      <i class="fa fa-trash-alt text-danger"></i>
+                    </a>
+                  </div>
+                </label>
+              </div>
+            </div>
+            <div class="col-12 col-md-6 col-xl-4">
+              <div class="card card-body">
+                <label for="talist12" class="form-label mb-0 c-pointer row">
+                  <div class="col">
+                    <input
+                      type="checkbox"
+                      class="form-check-input small me-2"
+                      name="tauira-list"
+                      id="talist12"
+                    />
+                    Ralph Edwards
+                  </div>
+                  <div class="col-auto ms-auto">
+                    <a
+                      class="icon-style rounded bg-red text-center"
+                      data-bs-target="#delTauiraModal"
+                      data-bs-toggle="modal"
+                      type="button"
+                    >
+                      <i class="fa fa-trash-alt text-danger"></i>
+                    </a>
+                  </div>
+                </label>
+              </div>
+            </div>
+          </div>
+          <!-- Page Navigation -->
+          <nav
+            class="d-flex justify-content-center"
+            aria-label="Page navigation"
+          >
+            <ul class="pagination">
+              <li class="page-item">
+                <a class="page-link" href="#" aria-label="Previous">
+                  <span aria-hidden="true">&laquo;</span>
+                </a>
+              </li>
+              <li class="page-item active">
+                <a class="page-link" href="#">1</a>
+              </li>
+              <li class="page-item"><a class="page-link" href="#">2</a></li>
+              <li class="page-item"><a class="page-link" href="#">3</a></li>
+              <li class="page-item">
+                <a class="page-link" href="#" aria-label="Next">
+                  <span aria-hidden="true">&raquo;</span>
+                </a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+
+        <!-- Modal Delete Term Plan -->
+        <div
+          class="modal fade"
+          id="delTermModal"
+          tabindex="-1"
+          aria-labelledby="delTermModalLabel"
+          aria-hidden="true"
+        >
+          <div class="modal-dialog modal-md modal-dialog-centered">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h6 class="modal-title" id="delTermModalLabel">
+                  Delete Confirmation
+                </h6>
+                <button
+                  type="button"
+                  class="btn-close"
+                  data-bs-dismiss="modal"
+                  aria-label="Close"
+                ></button>
+              </div>
+              <div class="modal-body text-start">
+                <p class="mb-3">
+                  Are you sure you want to delete -
+                  <span class="fw-bold"> Term 4 </span>
+                  from term plan list ?
+                </p>
+                <div class="row gx-3">
+                  <div class="col-6 col-md-auto">
+                    <button
+                      type="button"
+                      class="btn btn-primary-style w-100"
+                      data-bs-dismiss="modal"
+                    >
+                      Yes, Delete
+                    </button>
+                  </div>
+                  <div class="col-6 col-md-auto">
+                    <button
+                      type="button"
+                      class="btn btn-secondary-style w-100"
+                      data-bs-dismiss="modal"
+                    >
+                      Cancel
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Modal Delete Tauira -->
+        <div
+          class="modal fade"
+          id="delTauiraModal"
+          tabindex="-1"
+          aria-labelledby="delTauiraModalLabel"
+          aria-hidden="true"
+        >
+          <div class="modal-dialog modal-md modal-dialog-centered">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h6 class="modal-title" id="delTauiraModalLabel">
+                  Delete Confirmation
+                </h6>
+                <button
+                  type="button"
+                  class="btn-close"
+                  data-bs-dismiss="modal"
+                  aria-label="Close"
+                ></button>
+              </div>
+              <div class="modal-body text-start">
+                <p class="mb-3">
+                  Are you sure you want to delete -
+                  <span class="fw-bold"> Ralph Edwards </span>
+                  from assigned tāuira list ?
+                </p>
+                <div class="row gx-3">
+                  <div class="col-6 col-md-auto">
+                    <button
+                      type="button"
+                      class="btn btn-primary-style w-100"
+                      data-bs-dismiss="modal"
+                    >
+                      Yes, Delete
+                    </button>
+                  </div>
+                  <div class="col-6 col-md-auto">
+                    <button
+                      type="button"
+                      class="btn btn-secondary-style w-100"
+                      data-bs-dismiss="modal"
+                    >
+                      Cancel
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Modal Add Term Plan -->
+        <div
+          class="modal fade"
+          id="addTerm"
+          aria-labelledby="addTermLabel"
+          aria-hidden="true"
+        >
+          <div class="modal-dialog modal-md modal-dialog-centered">
+            <div class="modal-content">
+              <div class="modal-header mx-3 px-0">
+                <h6 class="modal-title" id="addTermLabel">
+                  Create New Term Plan
+                </h6>
+                <button
+                  type="button"
+                  class="btn-close"
+                  data-bs-dismiss="modal"
+                  aria-label="Close"
+                ></button>
+              </div>
+              <div class="modal-body p-0">
+                <div class="card overflow-auto modal-add border-0">
+                  <div class="card-body">
+                    <div class="mb-3 mb-md-4">
+                      <p>Curriculum Year : <span class="fw-bold">2022</span></p>
+                    </div>
+                    <div class="mb-3 mb-md-4">
+                      <label class="form-label" for="termDuration"
+                        >Term Duration</label
+                      >
+                      <select
+                        class="form-select"
+                        name="term"
+                        id="termDuration"
+                        aria-label=".form-select-term"
+                      >
+                        <option value="term1">Term 1</option>
+                        <option value="term2">Term 2</option>
+                        <option value="term3">Term 3</option>
+                      </select>
+                    </div>
+                    <div class="mb-3 mb-md-4">
+                      <label class="form-label" for="pumanawa"
+                        >Ngā Pūmanawa</label
+                      >
+                      <select
+                        class="form-select"
+                        name="term"
+                        id="pumanawa"
+                        aria-label=".form-select-pumanawa"
+                      >
+                        <option value="quality1">
+                          Quality 1 - Tamatekapua
+                        </option>
+                        <option value="quality2">
+                          Quality 2 - Tamatekapua
+                        </option>
+                        <option value="quality3">
+                          Quality 3 - Tamatekapua
+                        </option>
+                      </select>
+                    </div>
+                    <div class="p-3 bg-secondary rounded">
+                      <div class="mb-3">
+                        <h6 class="fs-14">Quality 1 - Tamatekapua</h6>
+                        <p class="fs-12">
+                          Successful Māori students understand core Māori values
+                        </p>
+                      </div>
+                      <div class="mb-3">
+                        <h6 class="fs-14">Characteristic</h6>
+                        <p class="fs-12">
+                          An ability to model the most meaningful qulities in
+                          Māori culture, portrayed by way of aroha (love),
+                          manaaki (care) and wairua (spritually)
+                        </p>
+                      </div>
+                      <div>
+                        <h6 class="fs-14">Application to school and work</h6>
+                        <p class="fs-12">
+                          1. Manaakitangan - ability to care and be hospitable
+                          to others </br>
+                          2. Kotahitanga - ability to commit to a
+                          kaupapa/vision  </br>
+                          3. Wairuatanga - moral compass and
+                          sense of social justice
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="row gx-3 p-3">
+                  <div class="col-6 col-md-auto">
+                    <button
+                      type="button"
+                      class="btn btn-primary-style w-100"
+                    >
+                      Save
+                    </button>
+                  </div>
+                  <div class="col-6 col-md-auto">
+                    <button
+                      type="button"
+                      class="btn btn-secondary-style w-100"
+                      data-bs-dismiss="modal"
+                    >
+                      Cancel
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Modal Detail Term Plan -->
+        <div
+          class="modal fade"
+          id="detailTerm"
+          aria-labelledby="detailTermLabel"
+          aria-hidden="true"
+        >
+          <div class="modal-dialog modal-md modal-dialog-centered">
+            <div class="modal-content">
+              <div class="modal-header mx-3 px-0">
+                <h6 class="modal-title" id="detailTermLabel">
+                  Detail Term Plan
+                </h6>
+                <button
+                  type="button"
+                  class="btn-close"
+                  data-bs-dismiss="modal"
+                  aria-label="Close"
+                ></button>
+              </div>
+              <div class="modal-body p-0">
+                <div class="card border-0 overflow-auto modal-detail">
+                  <div class="card-body">
+                    <div class="mb-3">
+                      <h6>Term 1</h6>
+                      <p class="fs-14">01/01/2022 - 28/02/2022</p>
+                    </div>
+                    <div class="rounded p-3 bg-secondary">
+                      <div class="mb-3 text-small">
+                        <h6 class="fs-14">Quality 1 - Tamatekapua</h6>
+                        <p class="fs-12">
+                          Successful Māori students understand core Māori values
+                        </p>
+                      </div>
+                      <div class="mb-3">
+                        <h6 class="fs-14">Characteristic</h6>
+                        <p class="fs-12">
+                          An ability to model the most meaningful qulities in
+                          Māori culture, portrayed by way of aroha (love),
+                          manaaki (care) and wairua (spritually)
+                        </p>
+                      </div>
+                      <div>
+                        <h6 class="fs-14">Application to school and work</h6>
+                        <p class="fs-12">
+                          1. Manaakitangan - ability to care and be hospitable to others </br>
+                          2. Kotahitanga - ability to commit to a kaupapa/vision  </br>
+                          3. Wairuatanga - moral compass and sense of social justice
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Modal Assign Tauira -->
+        <div
+          class="modal fade"
+          id="assignTauira"
+          aria-labelledby="assignTauiraLabel"
+          aria-hidden="true"
+        >
+          <div class="modal-dialog modal-md modal-dialog-centered">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h6 class="modal-title" id="assignTauiraLabel">
+                  Assign Tāuira
+                </h6>
+                <button
+                  type="button"
+                  class="btn-close"
+                  data-bs-dismiss="modal"
+                  aria-label="Close"
+                ></button>
+              </div>
+              <div class="modal-body p-0">
+                <div class="card">
+                  <div class="card-body">
+                    <div class="nav mb-3 mb-md-4 row" role="tablist">
+                      <label
+                        class="col-6"
+                        for="selectedTauira"
+                        data-bs-toggle="tab"
+                        data-bs-target="#bySelectedTauira"
+                      >
+                        <div class="form-check border-active">
+                          <input
+                            class="form-check-input"
+                            id="selectedTauira"
+                            name="assigntauiratype"
+                            type="radio"
+                            checked
+                          />
+                          <span class="d-none d-md-block text-medium">
+                            Assign by Selected
+                          </span>
+                          <span class="d-block d-md-none text-medium"
+                            >By Selected</span
+                          >
+                        </div>
+                      </label>
+                      <label
+                        class="col-6"
+                        for="bulkTauira"
+                        data-bs-toggle="tab"
+                        data-bs-target="#bulkAssignTauira"
+                      >
+                        <div class="form-check text-medium">
+                          <input
+                            class="form-check-input"
+                            id="bulkTauira"
+                            name="assigntauiratype"
+                            type="radio"
+                          />
+                          Bulk Assign
+                        </div>
+                      </label>
+                    </div>
+                    <div class="tab-content mb-3 mb-md-4 border-bottom">
+                      <div
+                        id="bySelectedTauira"
+                        class="tab-pane mb-3 mb-md-4 active"
+                      >
+                        <form class="form-search mb-3 mb-md-4">
+                          <i class="fa fa-magnifying-glass"></i>
+                          <input
+                            class="form-control me-2"
+                            type="search"
+                            placeholder="Search by name"
+                            aria-label="Search"
+                          />
+                        </form>
+                        <div
+                          class="row overflow-auto g-3 g-md-4 list-checkbox"
+                        >
+                          <div class="col-12 col-md-6">
+                            <label
+                              for="cb1"
+                              class="d-flex p-3 align-items-center border rounded"
+                            >
+                              <input
+                                type="checkbox"
+                                id="cb1"
+                                class="form-check-input checkbox-style"
+                              />
+                              Grace Isabella
+                            </label>
+                          </div>
+                          <div class="col-12 col-md-6">
+                            <label
+                              for="cb2"
+                              class="d-flex p-3 align-items-center border rounded"
+                            >
+                              <input
+                                type="checkbox"
+                                id="cb2"
+                                class="form-check-input checkbox-style"
+                              />
+                              Sienna Evelyn
+                            </label>
+                          </div>
+                          <div class="col-12 col-md-6">
+                            <label
+                              for="cb3"
+                              class="d-flex p-3 align-items-center border rounded"
+                            >
+                              <input
+                                type="checkbox"
+                                id="cb3"
+                                class="form-check-input checkbox-style"
+                              />
+                              <span>Oliver Khan</span>
+                            </label>
+                          </div>
+                          <div class="col-12 col-md-6">
+                            <label
+                              for="cb4"
+                              class="d-flex p-3 align-items-center border rounded"
+                            >
+                              <input
+                                type="checkbox"
+                                id="cb4"
+                                class="form-check-input checkbox-style"
+                              />
+                              <span>Vincent Ray</span>
+                            </label>
+                          </div>
+                          <div class="col-12 col-md-6">
+                            <label
+                              for="cb5"
+                              class="d-flex p-3 align-items-center border rounded"
+                            >
+                              <input
+                                type="checkbox"
+                                id="cb5"
+                                class="form-check-input checkbox-style"
+                              />
+                              <span>Dianna Lynda</span>
+                            </label>
+                          </div>
+                          <div class="col-12 col-md-6">
+                            <label
+                              for="cb6"
+                              class="d-flex p-3 align-items-center border rounded"
+                            >
+                              <input
+                                type="checkbox"
+                                id="cb6"
+                                class="form-check-input checkbox-style"
+                              />
+                              <span>Jason Lim</span>
+                            </label>
+                          </div>
+                        </div>
+                      </div>
+                      <div id="bulkAssignTauira" class="tab-pane mb-3 mb-md-4">
+                        <form class="btn-file mb-3">
+                          <p class="label-file lh-sm mb-3">
+                            Drag File Here To Upload
+                          </p>
+                          <p class="label-file lh-sm mb-3">Or</p>
+                          <label
+                            for="fileTemplate"
+                            class="form-label d-block mb-0"
+                          >
+                            <a class="btn-file-input label-file"
+                              >Browser File</a
+                            >
+                          </label>
+                          <input
+                            type="file"
+                            class="d-none fileTemplate"
+                            id="fileTemplate"
+                            accept=".csv, application/vnd.ms-excel"
+                          />
+                          <span class="file-name"></span>
+                          <span
+                            id="resetSelectedFile"
+                            class="c-pointer d-none resetSelectedFile"
+                          >
+                            <i
+                              class="fa fa-times-circle text-danger"
+                              aria-placeholder="cancel"
+                            ></i>
+                          </span>
+                          <p class="label-file mt-3">
+                            Allowed Extension CSV, XLS
+                          </p>
+                        </form>
+                        <div
+                          class="row justify-content-between align-items-center"
+                        >
+                          <h6
+                            class="col-12 col-md text-small text-center text-md-start mb-md-0"
+                          >
+                            Please download template before uploading data
+                          </h6>
+                          <div class="col-12 col-md-auto">
+                            <a
+                              class="d-flex justify-content-center text-primary desc"
+                              href="#"
+                            >
+                              <i class="fa-solid fa-download me-2"></i>
+                              Assign Template
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row gx-3">
+                      <div class="col-6 col-md-auto">
+                        <button
+                          type="button"
+                          class="btn btn-primary-style w-100"
+                        >
+                          Save
+                        </button>
+                      </div>
+                      <div class="col-6 col-md-auto">
+                        <button
+                          type="button"
+                          class="btn btn-secondary-style w-100"
+                          data-bs-dismiss="modal"
+                        >
+                          Cancel
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Modal Grade Up Confirmation -->
+        <div
+          class="modal fade"
+          id="gradeUpTauira"
+          aria-labelledby="gradeUpTauiraLabel"
+          aria-hidden="true"
+        >
+          <div class="modal-dialog modal-md modal-dialog-centered">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h6 class="modal-title" id="gradeUpTauiraLabel">
+                  Confirmation of student grade promotion
+                </h6>
+                <button
+                  type="button"
+                  class="btn-close"
+                  data-bs-dismiss="modal"
+                  aria-label="Close"
+                ></button>
+              </div>
+              <div class="modal-body text-start">
+                <p class="mb-3">
+                  Selected students will move up the class rank to next
+                  curriculum,
+                  <span class="fw-bold">Puriri - Y8</span>
+                </p>
+                <div class="row gx-3">
+                  <div class="col-6 col-md-auto">
+                    <button
+                      type="button"
+                      class="btn btn-primary-style w-100"
+                      data-bs-dismiss="modal"
+                    >
+                      Ok, Process
+                    </button>
+                  </div>
+                  <div class="col-6 col-md-auto">
+                    <button
+                      type="button"
+                      class="btn btn-secondary-style w-100"
+                      data-bs-dismiss="modal"
+                    >
+                      Cancel
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+    </div>
+    <script>
+      $(document).ready(function () {
+        $(".icon-classes").parent().parent().addClass("active");
+
+        $('input[name="assigntauiratype"]').click(function () {
+          $('input[name="assigntauiratype"]')
+            .parent()
+            .removeClass("border-active");
+          $(this).parent().addClass("border-active");
+        });
+
+        $(".fileTemplate").change(function () {
+          var fileName = $(this)[0].files[0].name;
+          $(".file-name").html(fileName);
+          $(".file-name").addClass("me-3");
+          $(this).addClass("d-inline-block");
+          $(".label-file").addClass("d-none");
+          $(".resetSelectedFile").removeClass("d-none");
+        });
+
+        $(".resetSelectedFile").click(function () {
+          $(this).addClass("d-none");
+          $(".fileTemplate").val("");
+          $(".label-file").removeClass("d-none");
+          $(".file-name").html("");
+          $(".file-name").removeClass("me-3");
+        });
+
+        $(".dropdown-toggle.no-icon").click(function () {
+          var icon = $(".dropdown-icon");
+          if (icon.hasClass("fa-chevron-down")) {
+            $(icon).removeClass("fa-chevron-down");
+            $(icon).addClass("fa-chevron-up");
+          } else {
+            $(icon).removeClass("fa-chevron-up");
+            $(icon).addClass("fa-chevron-down");
+          }
+        });
+
+        var tauiraList = $('input[name="tauira-list"]');
+
+        $("input[name='tauira-list']").click(function () {
+          if (tauiraList.filter(":checked").length == tauiraList.length) {
+            $("#tauiraSelectAll").prop("checked", true);
+          } else {
+            $("#tauiraSelectAll").prop("checked", false);
+          }
+        });
+
+        $("#tauiraSelectAll").click(function () {
+          if (this.checked) {
+            $(tauiraList).each(function () {
+              $(this).prop("checked", true);
+            });
+          } else {
+            $(tauiraList).each(function () {
+              $(this).prop("checked", false);
+            });
+          }
+        });
+      });
+
+      $(document).on("click", function (event) {
+        var trigger = $(".dropdown-toggle.no-icon");
+        if (trigger !== event.target && !trigger.has(event.target).length) {
+          $(".dropdown-icon").removeClass("fa-chevron-up");
+          $(".dropdown-icon").addClass("fa-chevron-down");
+        }
+      });
+    </script>
+  
+  </body>
+</html>

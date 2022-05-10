@@ -1,0 +1,39 @@
+{
+  "name": "pumahara-design-scss",
+  "version": "1.0.0",
+  "description": "Pumahara Design",
+  "main": "index.js",
+  "scripts": {
+    "start": "gulp",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/denisugiarto/pumahara-design-scss.git"
+  },
+  "author": {
+    "name": "Deni Sugiarto",
+    "homepage": "https//github.com/denisugiarto"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/denisugiarto/pumahara-design-scss/issues"
+  },
+  "homepage": "https://github.com/denisugiarto/pumahara-design-scss#readme",
+  "devDependencies": {
+    "@popperjs/core": "^2.10.2",
+    "bootstrap": "^5.1.3",
+    "browser-sync": "^2.27.9",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^8.0.0",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-imagemin": "^8.0.0",
+    "gulp-nunjucks-render": "^2.2.3",
+    "gulp-sass": "^5.1.0",
+    "gulp-webp": "^4.0.1",
+    "jquery": "^3.6.0",
+    "nunjucks": "^3.2.3",
+    "sass": "^1.51.0"
+  },
+  "dependencies": {}
+}

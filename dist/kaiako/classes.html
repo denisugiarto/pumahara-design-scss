@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="msapplication-TileColor" content="#ffffff" />
+  <meta name="theme-color" content="#ffffff" />
+  <title>My Classes</title>
+  <link
+    rel="stylesheet"
+    type="text/css"
+    href="/node_modules/bootstrap/dist/css/bootstrap.min.css"
+  />
+
+  <link rel="stylesheet" type="text/css" href="../assets/css/style.css" />
+  <link
+    rel="stylesheet"
+    type="text/css"
+    href="../assets/fonts/css/fontello.css"
+  />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap"
+    rel="stylesheet"
+  />
+  <script
+    src="https://kit.fontawesome.com/afe7e62084.js"
+    crossorigin="anonymous"
+  ></script>
+  <script src="/node_modules/jquery/dist/jquery.slim.min.js"></script>
+
+  <script src="/node_modules/@popperjs/core/dist/umd/popper.min.js"></script>
+  <script src="/node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+</head>
+
+  <body>
+    
+<div class="container-box">
+  <!-- Navbar Section-->
+<div class="sidebar">
+  <div class="navbar-small">
+    <button
+      class="btn-menu"
+      type="button"
+      data-bs-toggle="offcanvas"
+      data-bs-target="#offcanvasSidebar"
+    >
+      <svg
+        width="20"
+        height="21"
+        viewBox="0 0 20 21"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <line y1="0.5" x2="20" y2="0.5" stroke="#3E332B" />
+        <line y1="10.5" x2="13.3333" y2="10.5" stroke="#3E332B" />
+        <line y1="20.5" x2="20" y2="20.5" stroke="#3E332B" />
+      </svg>
+      <p>MENU</p>
+    </button>
+    <div class="brand">
+      <picture>
+        <source media="(min-width:992px)" srcset="../assets/images/logo3.svg" />
+        <img src="../assets/images/logo4.svg" alt="brand images" />
+      </picture>
+    </div>
+    <a class="notification" href="#">
+      <i class="demo-icon icon-bell"></i>
+      <span>99+</span>
+    </a>
+    <div class="img-profile d-none d-lg-flex">
+      <img src="../assets/images/profile.webp" alt="image profile" />
+    </div>
+  </div>
+  <div
+    class="offcanvas offcanvas-start bd-sidebar"
+    id="offcanvasSidebar"
+    tabindex="-1"
+  >
+    <div class="bd-links offcanvas-body">
+      <div class="img-profile d-lg-none">
+        <img src="../assets/images/profile.webp" alt="image profile" />
+      </div>
+      <p class="profile-name">Olivia Emily</p>
+      <nav class="nav flex-column nav-style">
+        <a href="#" class="nav-link border-bottom">
+          <div class="nav-icon">
+            <i class="demo-icon icon-home"></i>
+          </div>
+          <div class="nav-text">Home</div>
+          <div class="nav-arrow">
+            <i class="fa-solid fa-chevron-right"></i>
+          </div>
+        </a>
+        <a
+          href="/pumahara-design/kaiako/classes.html"
+          class="nav-link border-bottom"
+        >
+          <div class="nav-icon">
+            <i class="demo-icon icon-classes"></i>
+          </div>
+          <div class="nav-text">My Classes</div>
+          <div class="nav-arrow">
+            <i class="fa-solid fa-chevron-right"></i>
+          </div>
+        </a>
+        <a href="/pumahara-design/roopu.html" class="nav-link border-bottom">
+          <div class="nav-icon">
+            <i class="demo-icon icon-ropu"></i>
+          </div>
+          <div class="nav-text">My Roopu</div>
+          <div class="nav-arrow">
+            <i class="fa-solid fa-chevron-right"></i>
+          </div>
+        </a>
+        <a
+          href="/pumahara-design/ngapumanawa.html"
+          class="nav-link border-bottom"
+        >
+          <div class="nav-icon">
+            <i class="demo-icon icon-pumanawa"></i>
+          </div>
+          <div class="nav-text">Ngā Pūmanawa</div>
+          <div class="nav-arrow">
+            <i class="fa-solid fa-chevron-right"></i>
+          </div>
+        </a>
+        <a href="#" class="nav-link border-bottom">
+          <div class="nav-icon">
+            <i class="demo-icon icon-maramataka"></i>
+          </div>
+          <div class="nav-text">Maramataka</div>
+          <div class="nav-arrow">
+            <i class="fa-solid fa-chevron-right"></i>
+          </div>
+        </a>
+        <a href="#" class="nav-link border-bottom">
+          <div class="nav-icon">
+            <i class="demo-icon icon-journal"></i>
+          </div>
+          <div class="nav-text">Journal</div>
+          <div class="nav-arrow">
+            <i class="fa-solid fa-chevron-right"></i>
+          </div>
+        </a>
+        <a href="#" class="nav-link border-bottom">
+          <div class="nav-icon">
+            <i class="demo-icon icon-setting"></i>
+          </div>
+          <div class="nav-text">Account Setting</div>
+          <div class="nav-arrow">
+            <i class="fa-solid fa-chevron-right"></i>
+          </div>
+        </a>
+        <a href="#" class="nav-link text-danger">
+          <div class="nav-icon">
+            <i class="demo-icon icon-logout"></i>
+          </div>
+          <div class="nav-text">Logout</div>
+        </a>
+      </nav>
+    </div>
+  </div>
+</div>
+
+  <!-- Main Section-->
+  <main class="bd-main">
+    <!-- Classes Section -->
+    <div class="header d-flex align-items-center mb-4">
+      <i class="demo-icon icon-classes me-3"></i>
+      <h4 class="page-title">My Classes</h4>
+    </div>
+    <div class="mb-4 d-flex">
+      <div class="col-12 col-md-auto">
+        <select class="form-select" aria-label="Year">
+          <option value="2022" selected>2022</option>
+          <option value="2023">2023</option>
+          <option value="2024">2024</option>
+        </select>
+      </div>
+    </div>
+    <div class="card-list">
+      <div class="row">
+        <div class="col-12 col-md-6 col-xl-4">
+          <a href="/pumahara-design/kaiako/classes-detail.html" role="button">
+            <div class="card">
+              <div class="card-body d-flex align-items-center">
+                <h6 class="me-auto mb-0">Puriri - Y7</h6>
+                <i class="fa-solid fa-chevron-right"></i>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </main>
+  <!-- Delete Modal -->
+  <div
+    class="modal fade"
+    id="deleteModal"
+    tabindex="-1"
+    aria-labelledby="deleteModalLabel"
+    aria-hidden="true"
+  >
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h6 class="modal-title" id="deleteModalLabel">Delete Confirmation</h6>
+          <button
+            type="button"
+            class="btn-close"
+            data-bs-dismiss="modal"
+            aria-label="Close"
+          ></button>
+        </div>
+        <div class="modal-body text-start">
+          <p class="mb-3">
+            Are you sure you want to delete -
+            <span class="fw-bold"> Kahikatoa</span>?
+          </p>
+          <div class="row gx-3">
+            <div class="col-6 col-md-auto">
+              <button
+                type="button"
+                class="btn btn-primary-style w-100"
+                data-bs-dismiss="modal"
+              >
+                Yes, Delete
+              </button>
+            </div>
+            <div class="col-6 col-md-auto">
+              <button
+                type="button"
+                class="btn btn-secondary-style w-100"
+                data-bs-dismiss="modal"
+              >
+                Cancel
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+  $(document).ready(function () {
+    $(".icon-classes").parent().parent().addClass("active");
+  });
+</script>
+
+  </body>
+</html>
